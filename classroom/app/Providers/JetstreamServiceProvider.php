@@ -70,6 +70,8 @@ class JetstreamServiceProvider extends ServiceProvider
             'announcement:update',
             'announcement:delete',
             'announcement:read',
+            'appinfo:update',
+            'appinfo:read',
         ]);
     }
 }

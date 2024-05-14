@@ -1,6 +1,6 @@
 # Backend API
-! PHP with Laravel
+PHP with Laravel
 # Frontend
-! React with Next.js
+React with Next.js
 # Database
-! Mysql
+Mysql
