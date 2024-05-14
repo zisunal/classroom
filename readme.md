@@ -1,6 +1,8 @@
 # Backend API
 PHP with Laravel
 # Frontend
-React with Next.js
+React JS
+# Proxy Server for API Request
+Node with Express
 # Database
 Mysql
