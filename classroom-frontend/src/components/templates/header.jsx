@@ -1,12 +1,16 @@
-export default function Header() {
+import { Link } from "react-router-dom";
+
+export default function Header({appInfo}) {
     return (
         <header>
-            <h1>Classroom</h1>
+            <h2>
+                <Link to={"/"}>{appInfo.name}</Link>
+            </h2>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to={"/"}>My Classes</Link></li>
+                    <li><Link to={"/create"}>Create Class</Link></li>
+                    <li><Link to={"/join"}>Join Class</Link></li>
                 </ul>
             </nav>
         </header>

@@ -1,10 +1,13 @@
+import Teaching from "../components/home/teaching";
+import Studying from "../components/home/studying";
+
 export default function Home() {
     return (
-        <div>
-            <main>
-                <h2>Welcome to Classroom</h2>
-                <p>Classroom is a web application that allows teachers to manage their students and courses.</p>
-            </main>
-        </div>
+        <main>
+            <section>
+                <Teaching /> 
+                <Studying />
+            </section>
+        </main>
     );
 }
